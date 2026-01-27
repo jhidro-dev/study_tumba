@@ -57,7 +57,7 @@ Example:
 
 Add your Figma link here:
 
-- Figma: https://www.figma.com/byiringiro j. de dieu
+- Figma: https://www.figma.com/files/team/1590298977299685331/recents-and-sharing?fuid=1590298975430059824
 
 ## How to View
 
