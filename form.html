@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Form examples for BYIRINGIRO J. de Dieu portfolio">
+  <meta name="author" content="BYIRINGIRO J. de Dieu">
+  <title>Form | BYIRINGIRO J. de Dieu</title>
+
+  <base href="./">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='50' x='8' font-size='48'%3ERP%3C/text%3E%3C/svg%3E">
+  <style>
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Form</h1>
+
+    <nav aria-label="Primary">
+      <h2>Navigation</h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="form.html">Form</a></li>
+        <li><a href="media.html">Media</a></li>
+      </ul>
+    </nav>
+
+    <hr>
+  </header>
+
+  <main>
+    <section>
+      <h2>Full HTML form</h2>
+      <p>
+        This form demonstrates many input types and form controls.
+        It does not submit anywhere (HTML-only assignment).
+      </p>
+
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Basic information</legend>
+
+          <p>
+            <label for="fullName">Full name</label><br>
+            <input id="fullName" name="fullName" type="text" placeholder="Your name" required>
+          </p>
+
+          <p>
+            <label for="email">Email</label><br>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required>
+          </p>
+
+          <p>
+            <label for="password">Password</label><br>
+            <input id="password" name="password" type="password" minlength="6">
+          </p>
+
+          <p>
+            <label for="tel">Phone</label><br>
+            <input id="tel" name="tel" type="tel" placeholder="+250...">
+          </p>
+
+          <p>
+            <label for="website">Website</label><br>
+            <input id="website" name="website" type="url" placeholder="https://example.com">
+          </p>
+
+          <p>
+            <label for="search">Search keyword</label><br>
+            <input id="search" name="search" type="search" list="searchHints" placeholder="Try: portfolio">
+            <datalist id="searchHints">
+              <option value="portfolio"></option>
+              <option value="services"></option>
+              <option value="contact"></option>
+              <option value="media"></option>
+            </datalist>
+          </p>
+
+          <p>
+            <label for="age">Age</label><br>
+            <input id="age" name="age" type="number" min="1" max="120">
+          </p>
+
+          <p>
+            <label for="favColor">Favorite color</label><br>
+            <input id="favColor" name="favColor" type="color" value="#3366ff">
+          </p>
+
+          <p>
+            <label for="birthDate">Birth date</label><br>
+            <input id="birthDate" name="birthDate" type="date">
+          </p>
+
+          <p>
+            <label for="meetTime">Preferred meeting time</label><br>
+            <input id="meetTime" name="meetTime" type="time">
+          </p>
+
+          <p>
+            <label for="meeting">Meeting (date & time)</label><br>
+            <input id="meeting" name="meeting" type="datetime-local">
+          </p>
+
+          <p>
+            <label for="month">Preferred month</label><br>
+            <input id="month" name="month" type="month">
+          </p>
+
+          <p>
+            <label for="week">Preferred week</label><br>
+            <input id="week" name="week" type="week">
+          </p>
+
+          <p>
+            <label for="resume">Upload a file</label><br>
+            <input id="resume" name="resume" type="file" accept=".pdf,.doc,.docx,.png,.jpg">
+          </p>
+
+          <p>
+            <input id="hiddenField" name="hiddenField" type="hidden" value="hiddenValue">
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Preferences</legend>
+
+          <p>
+            <strong>Choose your role</strong><br>
+            <label><input type="radio" name="role" value="student" checked> Student</label><br>
+            <label><input type="radio" name="role" value="client"> Client</label><br>
+            <label><input type="radio" name="role" value="recruiter"> Recruiter</label>
+          </p>
+
+          <p>
+            <strong>Select interests</strong><br>
+            <label><input type="checkbox" name="interests" value="web"> Web</label><br>
+            <label><input type="checkbox" name="interests" value="design"> Design</label><br>
+            <label><input type="checkbox" name="interests" value="writing"> Writing</label>
+          </p>
+
+          <p>
+            <label for="budget">Budget range</label><br>
+            <input id="budget" name="budget" type="range" min="0" max="100" value="25">
+            <output for="budget" name="budgetOutput">25</output>
+          </p>
+
+          <p>
+            <label for="topic">Topic</label><br>
+            <select id="topic" name="topic">
+              <optgroup label="Website">
+                <option value="portfolio">Portfolio</option>
+                <option value="business">Small business</option>
+              </optgroup>
+              <optgroup label="Other">
+                <option value="training">Training</option>
+                <option value="consulting">Consulting</option>
+              </optgroup>
+            </select>
+          </p>
+
+          <p>
+            <label for="message">Message</label><br>
+            <textarea id="message" name="message" rows="6" cols="50" placeholder="Write your message here..."></textarea>
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Status & metrics</legend>
+
+          <p>
+            <label for="progress">Project progress</label><br>
+            <progress id="progress" value="60" max="100">60%</progress>
+          </p>
+
+          <p>
+            <label for="meter">Confidence meter</label><br>
+            <meter id="meter" min="0" max="10" low="3" high="7" optimum="9" value="8">8/10</meter>
+          </p>
+
+          <p>
+            Today is <time datetime="2026-01-26">January 26, 2026</time>.
+            Item code: <data value="PF-001">PF-001</data>
+          </p>
+        </fieldset>
+
+        <p>
+          <button type="submit">Submit</button>
+          <input type="reset" value="Reset">
+          <input type="submit" value="Submit (input)">
+          <input type="button" value="Button (input)" disabled>
+          <input type="image" alt="Image submit" src="https://via.placeholder.com/80x30?text=Send">
+        </p>
+      </form>
+
+      <aside>
+        <h3>Note</h3>
+        <p>
+          The <code>&lt;output&gt;</code> value above is static (HTML-only).
+        </p>
+      </aside>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      <a href="contact.html">Back to Contact</a>
+    </p>
+  </footer>
+</body>
+</html>

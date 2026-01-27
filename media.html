@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Media page for BYIRINGIRO J. de Dieu portfolio">
+  <meta name="author" content="BYIRINGIRO J. de Dieu">
+  <title>Media | BYIRINGIRO J. de Dieu</title>
+
+  <base href="./">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='50' x='8' font-size='48'%3ERP%3C/text%3E%3C/svg%3E">
+  <style>
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Media</h1>
+
+    <nav aria-label="Primary">
+      <h2>Navigation</h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="form.html">Form</a></li>
+        <li><a href="media.html">Media</a></li>
+      </ul>
+    </nav>
+
+    <hr>
+  </header>
+
+  <main>
+    <section>
+      <h2>Image gallery</h2>
+
+      <figure>
+        <picture>
+          <source media="(min-width: 700px)" srcset="https://via.placeholder.com/800x300?text=Large+Image">
+          <source media="(min-width: 400px)" srcset="https://via.placeholder.com/600x250?text=Medium+Image">
+          <img src="https://via.placeholder.com/360x200?text=Small+Image" alt="Responsive placeholder image">
+        </picture>
+        <figcaption>
+          Responsive image using <code>&lt;picture&gt;</code> and <code>&lt;source&gt;</code>.
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img
+          src="https://via.placeholder.com/640x320?text=Clickable+Areas"
+          alt="Placeholder image map demonstration"
+          usemap="#portfolio-map">
+        <figcaption>Image map demo: click a region to jump to a page.</figcaption>
+      </figure>
+
+      <map name="portfolio-map">
+        <area shape="rect" coords="0,0,320,160" href="about.html" alt="Go to About page">
+        <area shape="rect" coords="320,0,640,160" href="services.html" alt="Go to Services page">
+        <area shape="rect" coords="0,160,320,320" href="contact.html" alt="Go to Contact page">
+        <area shape="rect" coords="320,160,640,320" href="form.html" alt="Go to Form page">
+      </map>
+    </section>
+
+    <section>
+      <h2>Audio</h2>
+      <audio controls>
+        <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+
+    <section>
+      <h2>Video</h2>
+      <video controls width="640">
+        <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
+        <track kind="captions" src="captions.vtt" srclang="en" label="English" default>
+        Your browser does not support the video element.
+      </video>
+    </section>
+
+    <section>
+      <h2>Technical text elements</h2>
+      <p>
+        Here is inline code: <code>nav ul li a</code>.
+      </p>
+      <pre>
+<code>&lt;header&gt;
+  &lt;nav&gt;...&lt;/nav&gt;
+&lt;/header&gt;</code>
+      </pre>
+      <p>
+        Keyboard input example: press <kbd>Ctrl</kbd> + <kbd>S</kbd> to save.
+      </p>
+      <p>
+        Sample output: <samp>Build succeeded.</samp>
+      </p>
+      <p>
+        Variable example: let <var>x</var> = 10.
+      </p>
+    </section>
+
+    <section>
+      <h2>Interactive disclosure</h2>
+      <details>
+        <summary>Open to read more</summary>
+        <p>
+          This uses <strong>details</strong> and <em>summary</em> with no JavaScript.
+        </p>
+      </details>
+    </section>
+
+    <section>
+      <h2>Template & fallback</h2>
+      <template id="template-example">
+        <p>This is template content (not rendered by default).</p>
+      </template>
+
+      <canvas width="320" height="120">
+        Canvas fallback text: your browser does not support canvas.
+      </canvas>
+
+      <noscript>
+        This site does not use JavaScript, but this is a required element.
+      </noscript>
+    </section>
+
+    <aside>
+      <h2>Note</h2>
+      <p>
+        Replace placeholder images/audio/video with your own files if desired.
+      </p>
+    </aside>
+  </main>
+
+  <footer>
+    <p>
+      <a href="index.html">Back to Home</a>
+    </p>
+  </footer>
+</body>
+</html>
