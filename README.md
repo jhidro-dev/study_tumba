@@ -8,7 +8,7 @@ A fully structured, multi-page personal portfolio website built using **pure HTM
 |------|---------|
 | **Author** | Jean de Dieu BYIRINGIRO |
 | **Project Type** | Academic Assignment |
-| **Deadline** | Monday, 26th January 2026, 23:59:59 |
+| **Deadline** | Monday, 31th January 2026, 23:59:59 |
 | **Constraints** | HTML only (No CSS, No JavaScript) |
 
 This project demonstrates mastery of core HTML elements by building a complete, usable, and well-structured multi-page website using semantic HTML5 markup.
