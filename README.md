@@ -6,9 +6,9 @@ A fully structured, multi-page personal portfolio website built using **pure HTM
 
 | Item | Details |
 |------|---------|
-| **Author** | BYIRINGIRO J. de Dieu |
+| **Author** | Jean de Dieu BYIRINGIRO |
 | **Project Type** | Academic Assignment |
-| **Deadline** | Truesday, 28th January 2026, 23:59:59 |
+| **Deadline** | Monday, 26th January 2026, 23:59:59 |
 | **Constraints** | HTML only (No CSS, No JavaScript) |
 
 This project demonstrates mastery of core HTML elements by building a complete, usable, and well-structured multi-page website using semantic HTML5 markup.
@@ -57,7 +57,7 @@ Example:
 
 Add your Figma link here:
 
-- Figma: https://www.figma.com/files/team/1590298977299685331/recents-and-sharing?fuid=1590298975430059824
+- Figma: https://www.figma.com/
 
 ## How to View
 
@@ -70,4 +70,4 @@ Open `index.html` in a web browser, then navigate using the menu links.
 
 ## Author
 
-BYIRINGIRO J. de Dieu
+Jean de Dieu BYIRINGIRO
